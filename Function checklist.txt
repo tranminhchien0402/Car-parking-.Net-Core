@@ -1,0 +1,3 @@
+To do list:
+- Update id cua nhân viên trong ca làm viec de truy cuu trách nhiem neu can
+- hash password truoc khi luu vào database

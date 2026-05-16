@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Function checklist.txt" />
+    <File Path="Note.txt" />
+  </Folder>
+  <Project Path="ParkingMangementProject/ParkingMangementProject.csproj" />
+  <Project Path="Repository/Repository.csproj" />
+  <Project Path="Service/Service.csproj" Id="55b7a578-4f24-4643-8987-281071a04eaf" />
+</Solution>

@@ -1,0 +1,5 @@
+Note:
+- Loaded += TicketManagementPage_Loaded : dùng de chac chan rang sau khi load xong giao dien moi tiep tuc thuc hien loadData
+- Loaded chi chap nhan hàm có 2 thông so (object sender, RoutedEventArgs e) nên không the cong truc tiep Loaded += loadData
+- Su dung TabControl de phân chia các chuc nang thành các wpf riêng biet
+- Su dung TabItem de phân chia các chuc nang trong TabControl

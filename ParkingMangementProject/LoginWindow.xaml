@@ -1,0 +1,31 @@
+﻿<Window x:Class="ASM.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Đăng nhập hệ thống"
+        Width="400" Height="320"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Quản lý bãi giữ xe - Đăng nhập"
+                   FontSize="16" FontWeight="Bold"
+                   HorizontalAlignment="Center" Margin="0,0,0,16"/>
+
+        <StackPanel Grid.Row="1" Margin="0,0,0,8">
+            <TextBlock Text="Tên đăng nhập:"/>
+            <TextBox x:Name="txtUsername" Margin="0,4,0,10" Height="30"/>
+
+            <TextBlock Text="Mật khẩu:"/>
+            <PasswordBox x:Name="txtPassword" Margin="0,4,0,10" Height="32"/>
+            <Label></Label>
+            <Button Content="Đăng nhập" Height="30" Click="BtnLogin_Click"/>
+        </StackPanel>
+
+        <TextBlock x:Name="txtMessage" Grid.Row="2"
+                   Foreground="Red" Margin="0,8,0,0"/>
+    </Grid>
+</Window>
