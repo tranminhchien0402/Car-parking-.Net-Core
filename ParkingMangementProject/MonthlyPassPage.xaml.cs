@@ -22,7 +22,7 @@ namespace ASM
             {
                 get
                 {
-                    if (EndDate == null) return "Chưa có vé tháng";
+                    if (EndDate == null) return "Test lần 1 - chưa có ngày kết thúc";
                     var days = (EndDate.Value.Date - DateTime.Today).TotalDays; //tính ra số ngày dạng số thực
                     if (days >= 0) return $"Còn {Math.Ceiling(days)} ngày"; // làm tròn lên
                     return "Đã hết hạn";
